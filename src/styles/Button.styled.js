@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
+
 export const Button = styled.button`
-        background:transparent;
-        border:1px solid blue;
-        color:blue;
+        background:linear-gradient(45deg,purple,blue);
+        color:white;
+        border:none;
         border-radius:50px;
         padding:2px 4px;
         outline:none;
@@ -12,9 +13,10 @@ export const Button = styled.button`
 
         &:hover
         {
-            background:blue;
-            color:white;
-        
+            background:transparent;
+            color:blue;
+            border:2px solid blue;
+
         }
 `
 
